@@ -1,0 +1,5 @@
+{
+  "title": "こんにちは Cooyue Ke",
+  "welcome to {posi}, {name}": "{posi} へようこそ, {name}",
+  "description": "これはサーバーサイドの国際化機能を持つ Next.js アプリです。"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "你好，Cooyue柯同学",
+  "welcome to {posi}, {name}": "欢迎来到 {posi}, {name}",
+  "description": "这是一个具有服务器端国际化功能的 Next.js 应用。"
+}
