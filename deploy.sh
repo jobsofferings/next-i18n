@@ -8,11 +8,15 @@ git stash
 # Pull the latest changes from the main branch
 git pull origin main
 
+echo 'yarn start'
+
 # Install dependencies
 yarn
 
+echo 'yarn end'
+
 # Check if the application is running with PM2
-APP_NAME="your-app-name"  # 替换为你的应用名称
+APP_NAME="next_i18n"  # 替换为你的应用名称
 
 if pm2 list | grep -q "$APP_NAME"; then
     echo "$APP_NAME is already running. Restarting..."
