@@ -1,8 +1,7 @@
 var http = require('http');
 var spawn = require('child_process').spawn;
 var createHandler = require('github-webhook-handler');
-// 注意将 secret 修改你自己的
-var handler = createHandler({ path: '/webhook', secret: 'yourwebhooksecret' });
+var handler = createHandler({ path: '/webhook', secret: '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' });
 
 http.createServer(function (req, res) {
   handler(req, res, function (err) {
