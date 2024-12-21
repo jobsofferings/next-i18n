@@ -3,6 +3,8 @@ FROM node:20-alpine AS base
 # 可选，自定义参数变量，在docker build时通过--build-arg ENV=参数
 # ARG ENV
 
+# 测试构建
+
 # Install dependencies only when needed
 FROM base AS deps
 # RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
