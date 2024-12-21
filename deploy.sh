@@ -6,7 +6,7 @@ echo 'Starting build process...'
 git stash
 
 # Pull the latest changes from the main branch
-git pull origin main
+git pull
 
 echo 'pull end'
 
