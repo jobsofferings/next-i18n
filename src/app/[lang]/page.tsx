@@ -24,7 +24,7 @@ export default async function Home({
           {t('welcome to {posi}, {name}', { posi: 'Next.js', name: 'Cooyue' })}
         </p>
         <p>
-          {t('这是不存在翻译的文本，本页面已接入 webhook !')}
+          {t('这是不存在翻译的文本，本页面已接入 webhook !?')}
         </p>
         <LocaleSwitcher />
       </main>
