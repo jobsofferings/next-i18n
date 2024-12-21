@@ -8,6 +8,8 @@ git stash
 # Pull the latest changes from the main branch
 git pull origin main
 
+echo 'pull end'
+
 echo 'yarn start'
 
 # Install dependencies
